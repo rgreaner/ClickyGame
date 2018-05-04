@@ -1,29 +1,43 @@
 import React, { Component } from 'react';
-import Section from "./components/Section"
-import './App.css';
+import Board from "./components/Board.js";
+import Header from "./components/Header.js";
+//import './App.css';
 
+class App extends Component {
 
 state = {
-  bands: [
-      {
-          id: 1,
-          url: ""
-
-      }
-  ]
+ score: 0,
+ topScore:0
 }
 
 
-let bands = shuffle(this.state.bands);
-this.setState ({ bands })
+// handleGameOver = () => {
+//   this.setState ({ score: 0 })
+// };
 
+incrementScore = () => {
+  let {score, topScore} = this.state;
+  score = score +1;
+  //console.log("using incrementScore")
+  this.setState({score: score})
 
+  if (score > topScore) {
+    this.setState({topScore: score})
+  }
+};
 
-const App = () => (
-  
-  <div>
-    <Section />
+render () {
+  return (
+    <div className = "App">
+    <Header
+    currentScore={this.state.score}
+    topScore={this.state.topScore}/>
+    <Board
+    //gameOver={this.handleGameOver()}
+    incrementScore={() => this.incrementScore()}/>
   </div>
-)
+  );
+}
+}
 
 export default App;

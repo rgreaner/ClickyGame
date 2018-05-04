@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "url": "/assets/images/dreamers.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "url": "/assets/images/joywave.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "url": "/assets/images/kaiserChiefs.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "url": "/assets/images/metric.jpg",
+        "clicked": false   
+    },
+    {
+        "id": 5,
+        "url": "/assets/images/modestMouse.jpg",
+        "clicked": false   
+    }, 
+    {
+        "id": 6,
+        "url": "/assets/images/NBT.jpg",
+        "clicked": false   
+    },
+    {
+        "id": 7,
+        "url": "/assets/images/nightRiots.jpg",
+        "clicked": false   
+    }, 
+    {
+        "id": 8,
+        "url": "/assets/images/pmore.png",
+        "clicked": false   
+    },
+    {
+        "id": 9,
+        "url": "/assets/images/radioHead.jpg",
+        "clicked": false   
+    },
+    {
+        "id": 10,
+        "url": "/assets/images/theKillers.jpg",
+        "clicked": false   
+    },
+    {
+        "id": 11,
+        "url": "/assets/images/theWrecks.jpg",
+        "clicked": false   
+    },
+    {
+        "id":12,
+        "url": "/assets/images/wombats.jpg",
+        "clicked": false   
+    }
+]
